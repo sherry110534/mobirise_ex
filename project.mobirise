@@ -1,0 +1,628 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "name": "HingShine",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#efefef",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 26,
+    "versionPublish": "3.12.1",
+    "favicon": "",
+    "noImageResize": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "20px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-family": "'Roboto Condensed', sans-serif"
+            },
+            ".link": {
+              "font-size": "1.05rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.137rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#56564c"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#69695d!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#717164"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#efefef!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-h",
+          "_params": {
+            "bgColor": "#717164",
+            "fontSize": "1.05",
+            "fontName": {
+              "name": "Roboto Condensed",
+              "url": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "css": "'Roboto Condensed', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "music",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "active": true
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">HIGHSHINE MULTIMEDIA</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">活動宗旨</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">活動辦法</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-9\">報名對象</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-a\">報名項目<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#content1-d\">報名須知</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box5-5\">公佈日期</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header3-i\">注意事項</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-k\">獎勵辦法</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"http://hsmedia.com.tw/siteadmin/ckfinder/userfiles/files/2018%20%E7%AC%AC%E5%85%AD%E5%B1%86%20%E5%A4%AF%E6%AD%8C%E5%A6%99%E6%9B%B2%E7%94%84%E9%81%B8%E6%B4%BB%E5%8B%95%E5%A0%B1%E5%90%8D%E8%A1%A8.doc\">DOWNLOAD</a></li>"
+        },
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-lead": {
+              "color": "#efefef",
+              "text-align": "left",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            },
+            ".mbr-section-title DIV": {
+              "font-size": "60px",
+              "font-family": "'PT Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i"
+            },
+            ".mbr-section-lead SPAN": {
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
+              "font-size": "20px",
+              "color": "#ffffff",
+              "text-align": "left"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-2",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1328.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "第六屆 浩翔「夯歌妙曲」<br><div><span style=\"letter-spacing: -2px; line-height: 1.1;\"><br></span></div><div><span style=\"letter-spacing: -2px; line-height: 1.1;\">2018 國台語流行音樂詞曲創作比賽</span><br></div>",
+          "text": "<br><br><span style=\"font-style: normal;\">好歌能撫慰人心、激發鬥志、珍惜緣份，每一首歌的背後都潛藏感人的故事，歌曲的意境可穿越時空、遑論種族、無分國界，你我都離不開這樣的夯歌妙曲。本公司歡迎愛好數位音樂，鼓勵對國台語詞曲創作有興趣之人才展現才華踴躍報名，讓優質的作品有機會嶄露頭角。本活動聘請知名音樂專業評審對參賽作品進行甄選，獲選作品優先發表於歌手專輯，具有潛力之音樂人才亦有機會加入浩翔團隊，讓數位樂創作有個發揮的舞台。</span><span style=\"font-style: normal;\"><br></span><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"http://hsmedia.com.tw/siteadmin/ckfinder/userfiles/files/2018%20%E7%AC%AC%E5%85%AD%E5%B1%86%20%E5%A4%AF%E6%AD%8C%E5%A6%99%E6%9B%B2%E7%94%84%E9%81%B8%E6%B4%BB%E5%8B%95%E5%A0%B1%E5%90%8D%E8%A1%A8.doc\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD NOW</a> "
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-9",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff",
+            "showMeta": true
+          },
+          "title": "。活動辦法。<br>",
+          "meta": ""
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "text-align": "right",
+              "font-size": "36px"
+            },
+            "SMALL": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "16px"
+            },
+            "SPAN": {
+              "text-align": "right",
+              "color": "#6f6969"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-a",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "報名對象",
+          "meta": "<br><span style=\"font-style: normal;\">熱愛國台語流行音樂詞曲創作者，作品風格不拘，投稿件數不限。</span><br><span style=\"font-style: normal;\"><br></span>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "36px",
+              "text-align": "right"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-c",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#efefef",
+            "showMeta": false
+          },
+          "title": "報名項目",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-b",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/photo-600x399.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "A。台語歌曲。",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "整首歌作詞＋作曲（含演唱及伴奏）",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/1526869806010d3b2b1ad2d-600x399.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "B。國語歌曲。",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "整首歌作詞＋作曲（含演唱及伴奏）",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "C。創作歌詞。",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "純作詞（文字格式）",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x398.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "D。創作音樂。",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "純作曲（音樂檔案）",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "color": "#8c8c8c"
+            }
+          },
+          "_anchor": "content1-d",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "bgColor": "#efefef"
+          },
+          "text": "<p><font color=\"#000000\">註：已報名A、B二項目不可重複報名C、D項目，反之亦同</font></p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "36px",
+              "text-align": "right"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-e",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "報名須知",
+          "meta": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-g",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<ol><li>收件期限：自2018年01月01日至2018年12月31日止（掛號郵戳 或 快遞簽單為憑）</li><li>報名表：以實體郵件掛號報名為主，不接受網路報名或親送。</li><li>參賽作品：</li></ol><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;「歌詞」：一律以A4紙張橫書及附上CD光碟（需Word檔格式）</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;「歌曲」及「創作音樂」：需附上簡譜及數位音樂Demo帶（帶長約3~5分鐘，以Wave檔或MP3格式為主，存於CD光碟）。</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 檔名請統一以 \"姓名-第六屆(報名項目).doc\" 方式，例如：游知音-第六屆台語歌曲.doc。</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p><p>註：</p><ol><li>「報名表」及「參賽作品」請以<b>掛號郵寄</b>到「浩翔國際傳播股份有限公司—宣傳部收」 地址：（110）  台北市信義路四段415號13樓之2，信封上註明：「報名2018夯歌妙曲」。</li><li>&nbsp;未依本公司甄選規定及要求之報名方式、文件檔案格式報名者不予受理。報名內容不實、不明確、不完整或假藉他人名義報名者取消甄選資格。&nbsp;</li><li>所有參賽作品不論得獎是否，本公司全部不予寄回亦不另通知參賽者。</li></ol>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "msg-box5-5",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/gallery/desktop.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "錄取名單公佈日期",
+          "text": "得獎人名單及頒獎注意事項於2019年5月下旬會公佈於<a href=\"http：//hsmedia.com.tw\" target=\"_blank\" class=\"text-black\" style=\"font-style: normal;\">浩翔官網</a>，http：//hsmedia.com.tw，不另通知。",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "36px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-i",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "注意事項",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-k",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>甄選活動期間或結束後，發現參賽者如違反下列要點者取消參賽資格，參賽者除應負擔法律責任外，已領獎者並繳回獎狀及獎金或獎品。</p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">1. 個人或樂團報名皆以一人為代表填寫。</span></p><p>2. 參賽作品不得有抄襲、剽竊、重製或其他違反法令、侵害他人權益或版權之事。</p><p>3. 參賽作品未參加過其他比賽/甄選/得獎......等，且無與任何國內外唱片約/經紀約/詞曲版權所有<span style=\"font-size: 1.07rem; line-height: 1.5;\">人有現存合約關係。</span></p><p>4. 參賽作品未曾出版、銷售、被商品化或有相關廣告活動及授權。</p><p>5. 所有得獎作品之著作權，參賽者同意無條件移轉及授權「浩翔國際傳播股份有限公司」，由其專<span style=\"font-size: 1.07rem; line-height: 1.5;\">屬經紀代理及行銷，並有與參賽者簽訂合約之優</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">先權。</span></p><p>6.已報名之參賽者視為同意本公司報名表上之各項規定，且參賽作品亦配合本甄選相關活動公開宣傳及評比。</p><p>其他未盡事宜或因不可抗力因素影響甄選時程，將於官網說明，不另行通知參賽者。</p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-l",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "。獎勵辦法。",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-m",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "1",
+            "bgColor": "#fff"
+          },
+          "text1": "A、B項目共錄取優等3名、佳作3名<div><br></div><div>優等第一名：每名獎狀乙張，獎金新台幣100,000元整</div><div>優等第二名：每名獎狀乙張，獎金新台幣  30,000元整</div><div>優等第三名：每名獎狀乙張，獎金新台幣  15,000元整</div><div>佳作共三名：每名獎狀乙張，獎金新台幣    6,000元整</div>",
+          "text2": "<p>C、D項目共錄取優等3名、佳作3名</p><p><br></p><p>優等第一名：每名獎狀乙張，獎金新台幣20,000元整</p><p>優等第二名：每名獎狀乙張，獎金新台幣12,000元整</p><p>優等第三名：每名獎狀乙張，獎金新台幣  6,000元整</p><p>佳作共三名：每名獎狀乙張，獎金新台幣  3,000元整 &nbsp; &nbsp;&nbsp;</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-n",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>註：</p><p>得獎人應於主辦單位公佈錄取名單後一個月內回覆，逾期視為自動放棄。&nbsp;</p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">依台灣稅法機會中獎稅規定，得獎超過NT$13,333元，應自行負擔5%稅金，非居住於台灣地區之得</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">獎者，不論得獎所得之金額，須就得獎所得扣繳20%稅金。</span></p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-p",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "placeId": "ChIJn6wOs6lZwokRLKy1iqRcoKw",
+              "address": "350 5th Ave, New York, NY 10118",
+              "state": "ok"
+            }
+          },
+          "text1": "<strong>Address</strong><br>台北市信義路四段415號13樓之2<br><br><br>\n<strong>Contacts</strong><br>\nEmail: hs168@domax.com.tw<br>\nPhone: 886-2-27290289<br>\nFax: 886-2-27296739",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul><li><a href=\"http://hsmedia.com.tw/\" target=\"_blank\">浩翔國際傳播官網</a><a class=\"text-white\" href=\"https://mobirise.com/\"></a></li><li><a href=\"http://hsmedia.com.tw/contact.php?pk=20&amp;lang=zh\">浩翔多媒體新秀選拔</a><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><br></ul>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-8",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "。主辦單位：浩翔國際傳播股份有限公司      協辦單位：佳禾錄音室、風華錄音室。"
+        }
+      ]
+    }
+  }
+}
